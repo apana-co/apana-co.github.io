@@ -1,0 +1,74 @@
+main {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 0 0 1rem;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0.5rem 0;
+}
+h3,
+h4 {
+  font-weight: 500;
+  margin: 1.75rem 0 1rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.25rem;
+}
+p {
+  margin: 0.5rem 0 1rem;
+}
+strong {
+  font-weight: bolder;
+}
+ul,
+ol {
+  margin: 0.5rem 0 1.5rem 1.5rem;
+  padding: 0;
+  list-style-position: outside;
+  list-style-image: none;
+}
+li,
+li p {
+  margin: 0 0 0.125rem;
+  line-height: 1;
+}
+hr {
+  margin: 3rem 0;
+  color: inherit;
+  background-color: hsl(216, 12%, 92%, 0.5);
+  border: none;
+  height: 1px;
+}
+a {
+  text-decoration: none;
+  color: hsl(192, 96%, 64%);
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+header {
+  text-align: center;
+  padding: 1rem;
+}
+header p {
+  margin: 0;
+  font-weight: 600;
+}
